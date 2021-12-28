@@ -3,7 +3,6 @@ import streamlit as st
 import SessionState
 import pandas as pd
 
-
 def app(session_state):
     conn = mysql.connector.connect(host="localhost", user="root", passwd="12345", database="UTS")
     myCursor = conn.cursor()
