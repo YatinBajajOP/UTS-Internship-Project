@@ -4,7 +4,7 @@ Loan Risk Management Web Application for Banks dealing with agricultural loans
 
 In this web application we are implementing different deep learning models/algorithms for different pages using TK solver, SQL and other applications.  We have made an application for farmers where he/she can apply for a loan from us after checking the eligibility of the farmer by calculating the risk on the basis of other factors which are helpful for the good crop harvesting. Along with-it farmer can upload the plot image and can see the segmentation of various areas of the image and their percentage of different segmented areas.
 
-## Signup:
+## Signup: [signup.py]
 Customers and admin must sign up first to access the resources of the website.
 Requirements for sign up are:
 Name, phone number, unique user ID, aadhar number for customer users 
@@ -20,7 +20,7 @@ Name, phone number, unique user ID, aadhar number for customer users
 If you need to sign up as an admin then tick the I am admin button and enter the unique admin id given to you by the company, other details are the same as customer details
 
 
-## Login:
+## Login: [login.py]
 After successful sign up a user can log in to access the different resources of the web application using a unique username and password
 
 
@@ -33,7 +33,7 @@ After successful sign up a user can log in to access the different resources of 
  
 ![image](https://user-images.githubusercontent.com/67017561/147593822-87a5b45a-7da7-4365-b879-96088074deba.png)
 
-## Visualization:
+## Visualization: [viz.py]
 ### Customer
 ![image](https://user-images.githubusercontent.com/67017561/147593848-1340b0a1-ce78-42ea-9e3b-422b12630169.png)
 
@@ -45,6 +45,7 @@ Customer can also see previous uploads tick the check box show previous image up
 ![image](https://user-images.githubusercontent.com/67017561/147593872-1c2b99f2-f758-4672-b734-49919e235234.png)
  
 Customers can also upload the image of the area to see the segmentation of the plot into the land, water, and other things in that image. To see the original image, tick the check box show image (as given in image above) and to see the output of the image then click the generate output button (as given in image below)
+
  
 ![image](https://user-images.githubusercontent.com/67017561/147593884-053469e6-6225-4763-9e53-04dc0454168d.png)
 
@@ -71,7 +72,7 @@ If admin will choose this option then text box will appear copy paste the path o
 ![image](https://user-images.githubusercontent.com/67017561/147593935-24a4c1e9-e8ec-4da0-be1d-bd8476787d0a.png)
 
 
-## Eligibility:
+## Eligibility: [eligibility.py]
 
 ### Customer 
 Go to the eligibility page and input the parameter according to you 
@@ -111,7 +112,7 @@ Details of specific customer
 Details of the specific customer can be fetched by the Aadhar number of the customer
 To calculate the eligibility score admin can click the calculate score button  
 
-### Loan:
+### Loan: [loan.py]
 
 If customer is eligible for loan, they can input the parameters:
 This form consists of the parameters on which the loan will be sanctioned to the customer
